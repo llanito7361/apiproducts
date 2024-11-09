@@ -5,8 +5,14 @@ const router = Router()
 
 router.get('/',(req,res)=>{
 
-    res.status(200).send('tas en /')
+    res.status(200).send('tas en /, osea el home man')
 })
+
+router.get('/lari',(req,res)=>{
+
+    res.status(200).send('tkm bebu <3 te hago estas lineas, desde honolulu')
+})
+
 
 router.use('/products',ProductRouter)
 
