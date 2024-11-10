@@ -13,6 +13,11 @@ router.get('/lari',(req,res)=>{
     res.status(200).send('tkm bebu <3 te hago estas lineas, desde honolulu')
 })
 
+router.get('/xiomi',(req,res)=>{
+
+    res.status(200).send('hola xiomi este es tu endopoint')
+})
+
 router.get('/papucho',(req,res)=>{
 
     res.status(200).send('te amo mucho papucho, grax x todo<3')
